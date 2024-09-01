@@ -1,8 +1,16 @@
-import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  TouchableOpacity,
+  ScrollView,
+} from 'react-native';
 import React from 'react';
 import {colors} from '../utils/colors';
 import {fonts} from '../utils/fonts';
 import {useNavigation} from '@react-navigation/native';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 const Home = () => {
   const navigation = useNavigation();
@@ -68,7 +76,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     flexDirection: 'row',
-    marginTop: 10,
+    marginTop: 5,
     borderWidth: 2,
     borderColor: colors.secondary,
     width: '80%',
