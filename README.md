@@ -22,7 +22,7 @@ A simple React Native application with a Splash screen, Home screen, and Login/S
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/LoginSignUpApp.git```
+   https://github.com/jhantu626/Login-SignUp-UI.git```
 
 2. Navigate To the Project
    ```bash
